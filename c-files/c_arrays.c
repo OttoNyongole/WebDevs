@@ -13,6 +13,7 @@ int main () {
    /* output each array element's value */
    for (j = 0; j < 10; j++ ) {
       printf("Element[%d] = %d\n", j, n[j] );
+      printf("The address of the Element[%d] = %p\n", j, n[j]);
    }
  
    return 0;
