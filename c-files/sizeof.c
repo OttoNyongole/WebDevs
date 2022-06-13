@@ -21,5 +21,8 @@ int main(void)
     printf("Size of the pointer: %lu\n", sizeof(p));
     printf("The address of the variable 'p': %p\n", &p);
     printf("The value of varible p: %p\n", p);
+    //changing the value of the variable in using pointer.
+    *p = 402;
+    printf("The value of 'n': %d\n", n);
     return (0);
 }
