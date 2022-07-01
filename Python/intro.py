@@ -1,3 +1,6 @@
+from wsgiref import simple_server
+
+
 msg = "Hello World!"
 print(msg)
 print(msg[::-1]) #str reverse in str operation
@@ -11,3 +14,30 @@ if door_is_locked:
         print("Mom, open the door!")
 else: 
     print("The door is open, enter please!")
+#the Area of the square 
+side = 12
+Area = side*side
+print("the are of the square is:", Area)
+print("All measurements are in metres")
+
+#the area of the square using user input
+side =int(input("Enter the side:"))
+Area = side*side
+print("The area of the square is:", Area)
+print("All measurements are in metres")
+
+#Area of the square using function
+def Areaofsquare(side):
+        Area = side*side
+        return Area
+side = 12
+print("The area of the square is:", Area)
+#Area of the square using fine from user input
+def Areaofsquare(side):
+        Area = side*side
+        return Area
+side = int(input("Enter the side of the square:"))
+print("the area of the square is:", Area)
+
+
+
