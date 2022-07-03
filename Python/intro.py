@@ -1,3 +1,6 @@
+from tkinter import UNITS
+
+
 msg = "Hello World!"
 print(msg)
 print(msg[::-1]) #str reverse in str operation
@@ -11,3 +14,17 @@ if door_is_locked:
         print("Mom, open the door!")
 else: 
     print("The door is open, enter please!")
+
+    # The area of the square
+    side = 6
+    Area = side*side
+    print("The area of the square is", Area)
+# Area of the square by getting input user user
+side = int(input("Enter the side of the square"))
+Area = side*side
+print("the Area of the square =", Area)
+print("All measurementts are in metres")
+
+# Area of the square using function
+
+
