@@ -4,8 +4,15 @@
 
 #Print each fruit in a list
 
-fruits = ["apple", "banana", "cherry"]
+"""fruits = ["apple", "banana", "cherry"]
 for x in fruits:
     if x == "banana":
         break
+    print(x)"""
+#The continue statement
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+    if x == "banana":
+        continue
     print(x)
+
