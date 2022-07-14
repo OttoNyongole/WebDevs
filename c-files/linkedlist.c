@@ -11,9 +11,9 @@ int main(){
     struct Node* Secound = NULL;
     struct Node* Third = NULL;
     //allocate nodes
-    Head = (struct Node*)malloc(sizeof(struct Node*));
-    Secound =(struct Node*)malloc(sizeof(struct Node*));
-    Third = (struct Node*)malloc(sizeof(struct node*));
+    Head = (struct Node*)malloc(sizeof(struct Node));
+    Secound =(struct Node*)malloc(sizeof(struct Node));
+    Third = (struct Node*)malloc(sizeof(struct Node));
     //assining data o the nodes
     Head->data = 2;
     Head->next = Secound;
