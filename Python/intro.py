@@ -1,6 +1,6 @@
-from telnetlib import STATUS
+'''from telnetlib import STATUS
 from tkinter import UNITS
-from wsgiref import simple_server
+from wsgiref import simple_server'''
 
 
 msg = "Hello World!"
