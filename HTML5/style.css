@@ -7,9 +7,7 @@
 .header{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(5,0,136,0,5),rgba(5,0,136,0,5)),url(images/background.jpg);
-    background-position: center;
-    background-size: cover;
+    background-image:home/sean/WebDevs/HTML5/images/background1.jpg;
 }
 nav{
     width: 100%;
