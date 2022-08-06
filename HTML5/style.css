@@ -4,10 +4,13 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-.header{
+header{
     width: 100%;
     height: 100vh;
-    background-image:home/sean/WebDevs/HTML5/images/background1.jpg;
+    background:linear-gradient(#DB4437,maroon),;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
 }
 nav{
     width: 100%;
@@ -42,4 +45,63 @@ nav:hover ul li a{
     font-size: 25px;
     line-height: 50px;
     font-weight: 0;
+}
+.content p{
+    max-width: 500px;
+    line-height: 28px;
+    opacity: 0;
+}
+.links{
+    margin-top: 30px;
+    opacity: 0;
+}
+.links a{
+    color: magenta;
+    text-decoration: none;
+    display: inline-block;
+}
+.more{
+    border: 2px solid violet;
+    padding: 10px 35px;
+    border-radius: 30px;
+    margin-right: 15;
+}
+.contact{
+    border: 2px solid violet;
+    padding: 10px 35px;
+    border-radius: 30px;
+    margin-left: 15px;
+}
+.slide-left{
+    animation: slideleft 1s linear forwards;
+}
+@keyframes slideleft{
+    0%{
+        transform: translate(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+p.slide-left{
+    animation-delay: 1s;
+}
+.links.slide-left{
+    animation-delay: 2s;
+}
+.more:hover{
+    background-color: lightslategray;
+    transition: 1.5s;
+}
+.contact:hover{
+    background-color:lightslategray;
+    transition: 1.5s;
+}
+nav.footer{
+    width: auto;
+    height: 80px;
+    background-size: cover;
+    text-align: inherit;
 }
