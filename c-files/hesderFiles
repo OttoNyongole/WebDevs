@@ -1,0 +1,27 @@
+stddef.h define several useful types and macros (define macros)
+
+stdint.h Define exact width integer types.
+
+stdio.h Define core input and output funtions.
+
+stdlib.h Define numeric conversion functions, pseudo-random network generator, memory allocations.
+
+string.h Define string handling functions.
+
+math.h defines common mathematical functions.
+
+
+struction of the c program.
+	Header file inclussion
+	main funcytion declaration
+		synstx for main function is:
+			int main()
+			{}
+	variable declarations
+		int a = 10;
+		char c = "solid"
+	body of the program
+		with printf function
+		printf("%d", a);
+	Return statement
+		depent on the return type of the function		
