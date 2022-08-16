@@ -24,4 +24,9 @@ struction of the c program.
 		with printf function
 		printf("%d", a);
 	Return statement
-		depent on the return type of the function		
+		depent on the return type of the function
+
+c #define
+Is a preprocessor directive used to define constants or macro substitution. it can use any basic data type. like int char floute double etc.
+	synta 
+		#define token value i.e #define PI = 3.14		
