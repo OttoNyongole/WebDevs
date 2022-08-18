@@ -30,8 +30,8 @@ nav ul li a{
     color:green;
     font-weight: 500;
 }
-nav:hover{
-    background: pink;
+header div nav:hover{
+    background: maroon;
 }
 nav:hover ul li a{
     color: black;
@@ -99,9 +99,54 @@ p.slide-left{
     background-color:lightslategray;
     transition: 1.5s;
 }
+.otto{
+    color: black;
+    font-weight: 500px;
+    padding-left: 0%;
+    font-size: xx-large;
+}
+footer{
+   position: fixed;
+   background-color: #140B5C;
+   width: 100%;
+   height: 20%;
+   bottom: 0%;
+   left: 0%;
+   align-items: center;
+   justify-content: space-between;
+   padding: 18px 8px;
+   transition: none;
+}
 nav.footer{
-    width: auto;
-    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 8%;
+    transition: none; 
+}
+footer div nav{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+footer div nav ul{
+    text-decoration: none;
+    color:white;
+    font-weight: 500;
+    padding: 18px 8%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(lightslategray,whitesmoke,gray);
+    background-position: center;
     background-size: cover;
-    text-align: inherit;
+    overflow-x: hidden;
+}
+.photo{
+    width: 500px;
+    height: 600px;
+    border-radius: 8px;
+    float: right;
 }
