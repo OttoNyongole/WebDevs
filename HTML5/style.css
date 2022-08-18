@@ -20,6 +20,21 @@ nav{
     padding: 18px 8%;
     transition: background 1s;
 }
+.nav-bar{
+    height: 80px;
+    width: 100%;
+    border-radius: 0%;
+    background-color:#022d36;
+}
+.nav-button{
+    right: 0px;
+    width: 18px;
+    padding-top: 20px;
+    padding-right: 20px;
+    position: fixed;
+    z-index: 2;
+}
+
 nav ul li{
     display: inline-block;
     list-style: none;
@@ -100,7 +115,7 @@ p.slide-left{
     transition: 1.5s;
 }
 .otto{
-    color: black;
+    color: white;
     font-weight: 500px;
     padding-left: 0%;
     font-size: xx-large;
